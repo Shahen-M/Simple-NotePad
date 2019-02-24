@@ -1,0 +1,26 @@
+
+
+footer figure {
+  margin: 0;
+}
+
+footer figure img {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  padding: 30px;
+  bottom: 0;
+  right: 0;
+}
+
+footer figure img:hover {
+  width: 0px;
+  height: 0px;
+  background-image: url("../img/active_add_icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin: 30px;
+  bottom: 0;
+  right: 0;
+}
