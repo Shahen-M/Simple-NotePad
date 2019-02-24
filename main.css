@@ -1,0 +1,33 @@
+
+.ul_list {
+  padding: 0;
+  padding-top: 10px;
+}
+
+li {
+  width: 90%;
+  height: 40px;
+  border: 1px solid #ada8a8;
+  list-style: none;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  line-height: 40px;
+  z-index: 100;
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none;   
+  user-select: none;
+}
+
+span {
+  width: 245px;
+  display: block;
+  float: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
